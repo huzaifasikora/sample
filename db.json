@@ -1,9 +1,7 @@
 {
   "order_data": [
     {
-      "order_id": "AO_123",
-      "cancer_type": "Breast Carcinoma",
-      "chemotherapy": "",
+      "request_id": "AO_123",
       "genomic_findings": [
         {
           "gene": "ERBB2",
@@ -26,18 +24,23 @@
           "alteration": "T253fs*11"
         }
       ],
+      "cancer_diagnosis": "Breast Carcinoma",
+      "cancer_treatment": "",
+      
       "lifestyle": {
-        "age": "Above 60",
-        "sex": "",
-        "obese": "Yes",
-        "alcoholic": "Yes",
+        "age_group": "Above 60",
+        "gender": "",
+        "is_obese": "Yes",
+        "is_alcoholic": "Yes",
         "tobacco_use": "No",
         "ethnicity": ""
       },
-      "peripheral_info": {
-        "non_cancer_treatment": "",
-        "common_allergies": "",
+      "allergies" : {
+        "food_allergies": "",
         "drug_allergies": "",
+      }
+      "other_treatments" : {
+        "non_cancer_treatment": "",
         "on_supplement": ""
       }
     }
