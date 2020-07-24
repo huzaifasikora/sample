@@ -1,47 +1,47 @@
 {
-  "request_data": [
-    {
-      "request_id": "AO_123",
-      "genomic_findings": [
-        {
-          "gene": "ERBB2",
-          "alteration": "amplification"
-        },
-        {
-          "gene": "PIK3CA",
-          "alteration": "H1047R"
-        },
-        {
-          "gene": "CDK12",
-          "alteration": "rearrangement exon 5"
-        },
-        {
-          "gene": "CCNE1",
-          "alteration": "loss"
-        },
-        {
-          "gene": "TP53",
-          "alteration": "T253fs*11"
-        }
-      ],
-      "cancer_diagnosis": "Breast Carcinoma",
-      "cancer_treatment": "",
-      "lifestyle": {
-        "age_group": "Above 60",
-        "gender": "",
-        "is_obese": "Yes",
-        "is_alcoholic": "Yes",
-        "tobacco_use": "No",
-        "ethnicity": ""
-      },
-      "allergies" : {
-        "food_allergies": "",
-        "drug_allergies": ""
-      },
-      "other_treatments" : {
-        "non_cancer_treatment": "",
-        "on_supplement": ""
+   "request_data":[
+      {
+         "request_id":"AO_123",
+         "genomic_findings":[
+            {
+               "gene":"ERBB2",
+               "alteration":"amplification"
+            },
+            {
+               "gene":"PIK3CA",
+               "alteration":"H1047R"
+            },
+            {
+               "gene":"CDK12",
+               "alteration":"rearrangement exon 5"
+            },
+            {
+               "gene":"CCNE1",
+               "alteration":"loss"
+            },
+            {
+               "gene":"TP53",
+               "alteration":"T253fs*11"
+            }
+         ],
+         "cancer_diagnosis":"Breast Carcinoma",
+         "cancer_treatment":"",
+         "lifestyle":{
+            "age_group":"Above 60",
+            "gender":"",
+            "is_obese":"Yes",
+            "is_alcoholic":"Yes",
+            "tobacco_use":"No",
+            "ethnicity":""
+         },
+         "allergies":{
+            "food_allergies":"",
+            "drug_allergies":""
+         },
+         "other_treatments":{
+            "non_cancer_treatment":"",
+            "on_supplement":""
+         }
       }
-    }
-  ]
+   ]
 }
