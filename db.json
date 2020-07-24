@@ -1,5 +1,5 @@
 {
-  "order_data": [
+  "request_data": [
     {
       "request_id": "AO_123",
       "genomic_findings": [
@@ -36,7 +36,7 @@
       },
       "allergies" : {
         "food_allergies": "",
-        "drug_allergies": "",
+        "drug_allergies": ""
       },
       "other_treatments" : {
         "non_cancer_treatment": "",
