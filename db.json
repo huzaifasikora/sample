@@ -1,0 +1,27 @@
+{
+  "ORDER_ID": "123",
+  "CANCER_TYPE": "Breast Carcinoma",
+  "CHEMOTHERAPY": "",
+  "GENOMICS": {
+    "ERBB2": "amplification",
+    "PIK3CA": "H1047R",
+    "CDK12": "rearrangement exon 5",
+    "CCNE1": "loss",
+    "NOTCH3": "AKAP8-NOTCH3 fusion",
+    "TP53": "T253fs*11"
+  },
+  "LIFESTYLE": {
+    "AGE": "Above 60",
+    "SEX": "",
+    "OBESE": "Yes",
+    "ALCOHOLIC": "Yes",
+    "TOBACCO_USE": "No",
+    "ETHNICITY": ""
+  },
+  "PERIPHERAL_INFO": {
+    "NON_CANCER_TREATMENT": "",
+    "COMMON_ALLERGIES": "",
+    "DRUG_ALLERGIES": "",
+    "ON_SUPPLEMENT": ""
+  }
+}
