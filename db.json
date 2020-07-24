@@ -1,86 +1,80 @@
 {
-  "order_input": [
-    {
-      "AO_111": {
-        "cancer_type": "Breast Carcinoma",
-        "chemotherapy": "",
-        "genomic_findings": [
-          {
-            "gene": "ERBB2",
-            "alteration": "amplification"
-          },
-          {
-            "gene": "PIK3CA",
-            "alteration": "H1047R"
-          },
-          {
-            "gene": "CDK12",
-            "alteration": "rearrangement exon 5"
-          },
-          {
-            "gene": "CCNE1",
-            "alteration": "loss"
-          },
-          {
-            "gene": "NOTCH3",
-            "alteration": "AKAP8-NOTCH3 fusion"
-          },
-          {
-            "gene": "TP53",
-            "alteration": "T253fs*11"
-          }
-        ],
-        "lifestyle": {
-          "age": "Above 60",
-          "sex": "",
-          "obese": "Yes",
-          "alcoholic": "Yes",
-          "tobacco_use": "No",
-          "ethnicity": ""
-        },
-        "peripheral_info": {
-          "non_cancer_treatment": "",
-          "common_allergies": "",
-          "drug_allergies": "",
-          "on_supplement": ""
-        }
+  "AO_111": {
+    "cancer_type": "Breast Carcinoma",
+    "chemotherapy": "",
+    "genomic_findings": [
+      {
+        "gene": "ERBB2",
+        "alteration": "amplification"
+      },
+      {
+        "gene": "PIK3CA",
+        "alteration": "H1047R"
+      },
+      {
+        "gene": "CDK12",
+        "alteration": "rearrangement exon 5"
+      },
+      {
+        "gene": "CCNE1",
+        "alteration": "loss"
+      },
+      {
+        "gene": "NOTCH3",
+        "alteration": "AKAP8-NOTCH3 fusion"
+      },
+      {
+        "gene": "TP53",
+        "alteration": "T253fs*11"
       }
+    ],
+    "lifestyle": {
+      "age": "Above 60",
+      "sex": "",
+      "obese": "Yes",
+      "alcoholic": "Yes",
+      "tobacco_use": "No",
+      "ethnicity": ""
     },
-    {
-      "AO_222": {
-        "inputs": {
-          "cancer_type": "Breast Carcinoma",
-          "chemotherapy": "Tamoxifine",
-          "genomic_findings": [
-            {
-              "gene": "PIK3CA",
-              "alteration": "H1047R"
-            },
-            {
-              "gene": "CDK12",
-              "alteration": "amplification"
-            },
-            {
-              "gene": "BRCA1",
-              "alteration": "loss"
-            }
-          ],
-          "lifestyle": {
-            "age": "Below 60",
-            "sex": "",
-            "obese": "",
-            "alcoholic": "",
-            "tobacco_use": "",
-            "ethnicity": ""
-          },
-          "peripheral_info": {
-            "non_cancer_treatment": "",
-            "common_allergies": "",
-            "drug_allergies": "",
-            "on_supplement": ""
-          }
+    "peripheral_info": {
+      "non_cancer_treatment": "",
+      "common_allergies": "",
+      "drug_allergies": "",
+      "on_supplement": ""
+    }
+  },
+  "AO_222": {
+    "inputs": {
+      "cancer_type": "Breast Carcinoma",
+      "chemotherapy": "Tamoxifine",
+      "genomic_findings": [
+        {
+          "gene": "PIK3CA",
+          "alteration": "H1047R"
+        },
+        {
+          "gene": "CDK12",
+          "alteration": "amplification"
+        },
+        {
+          "gene": "BRCA1",
+          "alteration": "loss"
         }
+      ],
+      "lifestyle": {
+        "age": "Below 60",
+        "sex": "",
+        "obese": "",
+        "alcoholic": "",
+        "tobacco_use": "",
+        "ethnicity": ""
+      },
+      "peripheral_info": {
+        "non_cancer_treatment": "",
+        "common_allergies": "",
+        "drug_allergies": "",
+        "on_supplement": ""
       }
     }
-  ]
+  }
 }
