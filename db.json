@@ -1,42 +1,45 @@
 {
-  "AO_111": {
-    "cancer_type": "Breast Carcinoma",
-    "chemotherapy": "",
-    "genomic_findings": [
-      {
-        "gene": "ERBB2",
-        "alteration": "amplification"
+  "order_data": [
+    {
+      "order_id": "AO_123",
+      "cancer_type": "Breast Carcinoma",
+      "chemotherapy": "",
+      "genomic_findings": [
+        {
+          "gene": "ERBB2",
+          "alteration": "amplification"
+        },
+        {
+          "gene": "PIK3CA",
+          "alteration": "H1047R"
+        },
+        {
+          "gene": "CDK12",
+          "alteration": "rearrangement exon 5"
+        },
+        {
+          "gene": "CCNE1",
+          "alteration": "loss"
+        },
+        {
+          "gene": "TP53",
+          "alteration": "T253fs*11"
+        }
+      ],
+      "lifestyle": {
+        "age": "Above 60",
+        "sex": "",
+        "obese": "Yes",
+        "alcoholic": "Yes",
+        "tobacco_use": "No",
+        "ethnicity": ""
       },
-      {
-        "gene": "PIK3CA",
-        "alteration": "H1047R"
-      },
-      {
-        "gene": "CDK12",
-        "alteration": "rearrangement exon 5"
-      },
-      {
-        "gene": "CCNE1",
-        "alteration": "loss"
-      },
-      {
-        "gene": "TP53",
-        "alteration": "T253fs*11"
+      "peripheral_info": {
+        "non_cancer_treatment": "",
+        "common_allergies": "",
+        "drug_allergies": "",
+        "on_supplement": ""
       }
-    ],
-    "lifestyle": {
-      "age": "Above 60",
-      "sex": "",
-      "obese": "Yes",
-      "alcoholic": "Yes",
-      "tobacco_use": "No",
-      "ethnicity": ""
-    },
-    "peripheral_info": {
-      "non_cancer_treatment": "",
-      "common_allergies": "",
-      "drug_allergies": "",
-      "on_supplement": ""
     }
-  }
+  ]
 }
