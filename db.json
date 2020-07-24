@@ -26,7 +26,6 @@
       ],
       "cancer_diagnosis": "Breast Carcinoma",
       "cancer_treatment": "",
-      
       "lifestyle": {
         "age_group": "Above 60",
         "gender": "",
@@ -38,7 +37,7 @@
       "allergies" : {
         "food_allergies": "",
         "drug_allergies": "",
-      }
+      },
       "other_treatments" : {
         "non_cancer_treatment": "",
         "on_supplement": ""
